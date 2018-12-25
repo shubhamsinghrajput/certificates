@@ -409,49 +409,74 @@ input {
     }
 
     .avatar-content {
-        top: 33.6%;
+        top: 35.6%;
         z-index: 2;
     }
 
-   .upload-button {
+    .upload-button {
         width: 100px;
         height: 100px;
         left: 160%;
         top: -133px;
-       padding-top:75px;
-       font-size: 16px;
-       color: #000;
-       span{
-           opacity: 0;
-       }
+        padding-top: 75px;
+        font-size: 16px;
+        color: #000;
+
+        span {
+            opacity: 0;
+        }
+        @media all and (max-width:1023px){
+            left: 180%;
+            padding-top: 50px;
+        }
+        @media all and (max-width:991px){
+           left: 170%;
+            padding-top: 50px;
+        }
+        @media all and (max-width:767px){
+           left: 130%;
+            padding-top: 50px;
+        }
     }
 
     .avatar-header {
         width: 275px;
         height: 275px;
-        .profile-pic{
+
+        .profile-pic {
             object-fit: contain;
             display: block;
         }
-        @media all and (max-width:1023px){
+
+        @media all and (max-width:1023px) {
             width: 225px;
             height: 225px;
         }
+
+        @media all and (max-width:991px) {
+            width: 200px;
+            height: 200px;
+        }
     }
-    .pp-wrapper{
+
+    .pp-wrapper {
         overflow: hidden;
         width: 100%;
         height: 100%;
         border-radius: 50%;
         border: 10px solid gray;
-        img{
+        padding: 2px;
+
+        img {
             width: 100%;
             height: 100%;
             object-fit: contain;
         }
     }
 
-    .wrap-content:hover .upload-button .fa-arrow-circle-up , .wrap-content:hover .upload-button span, .wrap-content.upload-button span:hover  {
+    .wrap-content:hover .upload-button .fa-arrow-circle-up,
+    .wrap-content:hover .upload-button span,
+    .wrap-content.upload-button span:hover {
         opacity: 0.9;
     }
 
