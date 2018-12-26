@@ -421,12 +421,13 @@ input {
   height: 100%;
   border-radius: 50%;
   border: 10px solid gray;
-  padding: 2px;
 }
 .crt3 .pp-wrapper img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  border-radius: 50%;
+  border: 3px solid #fff;
 }
 .crt3 .wrap-content:hover .upload-button .fa-arrow-circle-up,
 .crt3 .wrap-content:hover .upload-button span,
