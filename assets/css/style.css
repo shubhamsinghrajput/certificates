@@ -435,6 +435,12 @@ input {
   opacity: 0.9;
 }
 
+/*--------------Certificate -4----------------*/
+.crt4 .avatar-content {
+  width: 60%;
+  float: right;
+}
+
 /*===================RESPONSIVE =========================*/
 
 /*# sourceMappingURL=style.css.map */
