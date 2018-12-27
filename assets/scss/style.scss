@@ -398,7 +398,7 @@ input {
     }
 }
 
-.crt3 {
+.crt3,.crt5 {
     .avatar-header {
         top: 30%;
         z-index: 1;
@@ -533,9 +533,14 @@ input {
  }
 
 /*--------------CERTIFICATION-------------*/
-.crt5 { 
-    font-size: 22px; 
+.crt5 {
+    font-size: 22px;
+    color: #333;
+    .avatar-header{
+        
+    }
 }
+
 
 
 
