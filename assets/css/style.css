@@ -435,10 +435,55 @@ input {
   opacity: 0.9;
 }
 
-/*--------------Certificate -4----------------*/
+/*--------------CERTIFICATION-------------*/
+.crt4 {
+  font-size: 22px;
+  color: #333;
+}
 .crt4 .avatar-content {
-  width: 60%;
-  float: right;
+  padding: 8% 8% 0px 33%;
+  top: 7%;
+}
+@media all and (max-width: 1023px) {
+  .crt4 {
+    font-size: 19px;
+  }
+}
+.crt4 .row {
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  -o-justify-content: flex-start;
+  justify-content: flex-start;
+  margin: 0 auto 2.8%;
+  text-align: left;
+}
+.crt4 .editable-text {
+  border-bottom-color: #e5cd85;
+  text-align: center;
+  padding-left: 1%;
+}
+.crt4 .editable-text:focus {
+  outline-width: 0;
+  -webkit-box-shadow: 0 0 none;
+  -moz-box-shadow: 0 0 none;
+  -ms-box-shadow: 0 0 none;
+  -o-box-shadow: 0 0 none;
+  box-shadow: 0 0 none;
+}
+.crt4 .avatar-header {
+  text-align: right;
+  margin: 5%;
+  height: 15%;
+  margin-left: auto;
+  top: 3%;
+}
+.crt4 .avatar-header .upload-button .fa-arrow-circle-up {
+  text-align: right;
+  right: 1%;
+}
+.crt4 .avatar-header .profile-pic:after {
+  text-align: right;
 }
 
 /*===================RESPONSIVE =========================*/
