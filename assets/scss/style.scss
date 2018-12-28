@@ -552,4 +552,51 @@ input {
 
 
 /*===================RESPONSIVE =========================*/
+@media all and (max-width:767px) {
+    body {
+        position: relative;
+
+        .main,#printPageButton{
+            display: none !important;
+        }
+
+        &:after {
+            content: " your device is not allowed to access this page please use more broad device"; 
+            position:fixed;
+            width: 80%;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            min-height: 250px;
+            text-align: center;
+            background: #fff;
+            color: #333;
+            border: 2px solid #333; 
+            top: 20%; 
+            padding: 75px 25px 50px;
+            z-index: 2;
+        }
+        &:before {
+            content: " "; 
+            position:fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.2);
+            z-index: 1
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 @import "responsive.scss";
