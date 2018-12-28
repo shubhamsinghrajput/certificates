@@ -493,6 +493,28 @@ input {
   font-size: 22px;
   color: #333;
 }
+.crt5 .avatar-header {
+  width: 390px;
+  height: 390px;
+  top: 9%;
+}
+.crt5 .avatar-header .pp-wrapper {
+  border: 25px solid gray;
+}
+.crt5 .avatar-header .pp-wrapper img {
+  border-width: 5px;
+}
+@media all and (max-width: 991px) {
+  .crt5 {
+    font-size: 20px;
+  }
+  .crt5 .avatar-header {
+    width: 325px;
+    height: 325px;
+    top: 12%;
+  }
+}
+
 /*===================RESPONSIVE =========================*/
 @media all and (max-width: 767px) {
   body {
@@ -513,18 +535,23 @@ input {
     background: #fff;
     color: #333;
     border: 2px solid #333;
-    top: 20%;
+    top: 150px;
     padding: 75px 25px 50px;
     z-index: 2;
   }
   body:before {
-    content: " ";
+    content: "";
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.2);
+    background: url(../images/tenor.gif) no-repeat center 50px;
+    -webkit-background-size: 100px;
+    -moz-background-size: 100px;
+    -ms-background-size: 100px;
+    -o-background-size: 100px;
+    background-size: 100px;
     z-index: 1;
   }
 }
