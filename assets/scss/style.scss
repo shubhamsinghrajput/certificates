@@ -572,10 +572,9 @@ input {
 @media all and (max-width:767px) {
     body {
         position: relative;
-         .main,#printPageButton{
+        .main,#printPageButton{
             display: none !important;
         }
-
         &:after {
             content: " your device is not allowed to access this page please use more broad device"; 
             position:fixed;
@@ -601,11 +600,11 @@ input {
             bottom: 0;
             background: url(../images/tenor.gif) no-repeat center 50px;
             -webkit-background-size: 100px;
-             -moz-background-size: 100px;
-             -ms-background-size: 100px;
-             -o-background-size: 100px;
+            -moz-background-size: 100px;
+            -ms-background-size: 100px;
+            -o-background-size: 100px;
             background-size:100px ;
-            z-index: 1
+            z-index: 1;
         }
     }
 }
