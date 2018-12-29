@@ -677,7 +677,7 @@ body #printPageButton {
     display: none !important;
   }
   body:after {
-    content: " your device is not allowed to access this page please use more broad device";
+    content: " Your device is not allowed to access this page please use more broad device";
     position: fixed;
     width: 80%;
     left: 0;
