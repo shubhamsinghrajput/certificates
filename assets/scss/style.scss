@@ -607,6 +607,42 @@ input {
         }
     }
  }
+/* -- ----------------------------------------------------------- */
+
+    .crt7 {
+        color: #806725;
+        font-size: 22px;
+
+        .avatar-header {
+            top: 1%;
+        }
+
+        .avatar-content {
+            padding: 2% 21% 0;
+        }
+        @media all and (max-width:1023px){
+            font-size: 19px;
+        }       
+        .r3 {
+            margin: 0 0 5.2%;
+        }
+        .r4 {
+            margin: 0;
+        }
+        .r6 {
+            margin: 0 13.5%;
+        }
+        .editable-text{
+            border-bottom-color: #e2ca7b;
+            text-align: center;
+            padding-left: 1%;
+            &:focus{
+                outline-width:0;
+                @include shadow(0 0 none);
+            }
+        }
+    }
+    
 
 
 

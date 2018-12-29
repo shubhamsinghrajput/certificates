@@ -563,6 +563,45 @@ input {
   text-align: left;
 }
 
+/* -- ----------------------------------------------------------- */
+.crt7 {
+  color: #806725;
+  font-size: 22px;
+}
+.crt7 .avatar-header {
+  top: 1%;
+}
+.crt7 .avatar-content {
+  padding: 2% 21% 0;
+}
+@media all and (max-width: 1023px) {
+  .crt7 {
+    font-size: 19px;
+  }
+}
+.crt7 .r3 {
+  margin: 0 0 5.2%;
+}
+.crt7 .r4 {
+  margin: 0;
+}
+.crt7 .r6 {
+  margin: 0 13.5%;
+}
+.crt7 .editable-text {
+  border-bottom-color: #e2ca7b;
+  text-align: center;
+  padding-left: 1%;
+}
+.crt7 .editable-text:focus {
+  outline-width: 0;
+  -webkit-box-shadow: 0 0 none;
+  -moz-box-shadow: 0 0 none;
+  -ms-box-shadow: 0 0 none;
+  -o-box-shadow: 0 0 none;
+  box-shadow: 0 0 none;
+}
+
 /*===================RESPONSIVE =========================*/
 @media all and (max-width: 767px) {
   body {
