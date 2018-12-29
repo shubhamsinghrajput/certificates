@@ -466,14 +466,14 @@ input {
         overflow: hidden;
         width: 100%;
         height: 100%;
-        border-radius: 50%;
-        border: 10px solid gray;
+         
+        
 
         img {
             width: 100%;
             height: 100%;
             object-fit: contain;
-            border-radius: 50%;
+           
             border: 3px solid #fff;
         }
     }
@@ -541,7 +541,7 @@ input {
         height: 390px;
         top: 9%;
         .pp-wrapper{
-            border:25px solid gray;
+             
             img{
                 border-width: 5px;
             }
@@ -555,6 +555,10 @@ input {
             height:325px;
             top:12%;
         }
+    }
+    .upload-button {
+         left: 120%;
+        top: 0;
     }
 }
 
