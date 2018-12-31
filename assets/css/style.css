@@ -748,6 +748,19 @@ body #printPageButton {
     z-index: 1;
   }
 }
+.crt3 .pp-wrapper, .crt5 .pp-wrapper {
+  position: relative;
+}
+.crt3 .pp-wrapper img, .crt5 .pp-wrapper img {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: relative;
+}
 .crt3 .profile-pic, .crt5 .profile-pic {
   max-width: none;
 }
