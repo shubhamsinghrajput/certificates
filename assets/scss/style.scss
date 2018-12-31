@@ -374,7 +374,15 @@ input {
         display: none;
     }
 }
-
+.crt1{
+    .pp-wrapper{
+        height: 100%;
+        width: 100%;
+    }
+    .avatar-header {
+        height: 12%;
+    }
+}
 
 .avatar-content {
     position: relative;
@@ -390,11 +398,16 @@ input {
     font-size: 22px;
 
     .avatar-header {
-        top: 7%;
+        top: 5%;
+        height: 12%;
     }
 
     .avatar-content {
         padding: 2% 21% 0;
+    }
+
+    @media all and (max-width:1023px) {
+        font-size: 17px;
     }
 }
 
@@ -484,6 +497,7 @@ input {
         opacity: 0.9;
     }
 }
+
 .crt3 .r7 {
     margin: 2.6% 0;
 }
@@ -689,7 +703,8 @@ input {
         .upload-button .fa-arrow-circle-up {
             color: #fff;
         }
-        .profile-pic:after{
+
+        .profile-pic:after {
             color: #fff;
         }
     }
@@ -761,6 +776,7 @@ input {
     body {
         position: relative;
         min-height: 550px;
+
         .main,
         #printPageButton {
             display: none !important;

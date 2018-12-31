@@ -333,6 +333,14 @@ input {
   display: none;
 }
 
+.crt1 .pp-wrapper {
+  height: 100%;
+  width: 100%;
+}
+.crt1 .avatar-header {
+  height: 12%;
+}
+
 .avatar-content {
   position: relative;
   top: 12.6%;
@@ -347,10 +355,16 @@ input {
   font-size: 22px;
 }
 .crt2 .avatar-header {
-  top: 7%;
+  top: 5%;
+  height: 12%;
 }
 .crt2 .avatar-content {
   padding: 2% 21% 0;
+}
+@media all and (max-width: 1023px) {
+  .crt2 {
+    font-size: 17px;
+  }
 }
 
 .crt3 .avatar-header,
