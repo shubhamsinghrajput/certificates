@@ -637,11 +637,13 @@ input {
     font-size: 22px;
 
     .avatar-header {
-        top: 1%;
+        top: -3%;
+        height: 15%;
     }
 
     .avatar-content {
         padding: 2% 21% 0;
+        top: 10.6%;
     }
 
     @media all and (max-width:1023px) {
@@ -678,36 +680,56 @@ input {
     font-size: 22px;
 
     .avatar-header {
-        top: 1%;
+        top: -2%;
+        height: 12%;
+
+        .upload-button .fa-arrow-circle-up {
+            color: #fff;
+        }
+        .profile-pic:after{
+            color: #fff;
+        }
+    }
+
+    .pp-wrapper {
+        width: 100%;
+        height: 100%;
     }
 
     .avatar-content {
         padding: 2% 16% 0;
+        top: 9%;
     }
+
     .r1 {
         margin-bottom: 1.5%;
     }
+
     .r2 {
         margin-bottom: 2.6%;
     }
+
     .r4 {
         margin: 0;
     }
+
     .r3 {
         margin: 0 6.5% 3.5%;
     }
 
     @media all and (max-width:1023px) {
         font-size: 18px;
-        .avatar-content{
+
+        .avatar-content {
             padding: 2% 10%;
         }
     }
-    .profile-pic{
-        max-height: 75px;
+
+    .profile-pic {
+        max-height: 100%;
         weidth: auto;
     }
-    
+
 
     .wrap-content {
         position: absolute;
@@ -735,7 +757,7 @@ input {
 @media all and (max-width:767px) {
     body {
         position: relative;
-
+        min-height: 550px;
         .main,
         #printPageButton {
             display: none !important;
@@ -743,7 +765,7 @@ input {
 
         &:after {
             content: " Your device is not allowed to access this page please use more broad device";
-            position: fixed;
+            position: absolute;
             width: 80%;
             left: 0;
             right: 0;
@@ -760,7 +782,7 @@ input {
 
         &:before {
             content: '';
-            position: fixed;
+            position: absolute;
             top: 0;
             right: 0;
             left: 0;

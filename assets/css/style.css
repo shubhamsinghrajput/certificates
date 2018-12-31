@@ -583,10 +583,12 @@ input {
   font-size: 22px;
 }
 .crt7 .avatar-header {
-  top: 1%;
+  top: -3%;
+  height: 15%;
 }
 .crt7 .avatar-content {
   padding: 2% 21% 0;
+  top: 10.6%;
 }
 @media all and (max-width: 1023px) {
   .crt7 {
@@ -622,10 +624,22 @@ input {
   font-size: 22px;
 }
 .crt8 .avatar-header {
-  top: 1%;
+  top: -2%;
+  height: 12%;
+}
+.crt8 .avatar-header .upload-button .fa-arrow-circle-up {
+  color: #fff;
+}
+.crt8 .avatar-header .profile-pic:after {
+  color: #fff;
+}
+.crt8 .pp-wrapper {
+  width: 100%;
+  height: 100%;
 }
 .crt8 .avatar-content {
   padding: 2% 16% 0;
+  top: 9%;
 }
 .crt8 .r1 {
   margin-bottom: 1.5%;
@@ -648,7 +662,7 @@ input {
   }
 }
 .crt8 .profile-pic {
-  max-height: 75px;
+  max-height: 100%;
   weidth: auto;
 }
 .crt8 .wrap-content {
@@ -677,6 +691,7 @@ input {
 @media all and (max-width: 767px) {
   body {
     position: relative;
+    min-height: 550px;
   }
   body .main,
 body #printPageButton {
@@ -684,7 +699,7 @@ body #printPageButton {
   }
   body:after {
     content: " Your device is not allowed to access this page please use more broad device";
-    position: fixed;
+    position: absolute;
     width: 80%;
     left: 0;
     right: 0;
@@ -700,7 +715,7 @@ body #printPageButton {
   }
   body:before {
     content: "";
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     left: 0;
