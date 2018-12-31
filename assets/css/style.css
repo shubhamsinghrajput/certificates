@@ -748,7 +748,7 @@ body #printPageButton {
     z-index: 1;
   }
 }
-.crt3 .profile-pic, crt5 .profile-pic {
+.crt3 .profile-pic, .crt5 .profile-pic {
   max-width: none;
 }
 
