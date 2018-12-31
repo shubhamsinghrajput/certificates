@@ -108,6 +108,7 @@
 }
 
 body {
+  padding-top: 15px;
   font-family: Roboto-Regular !important;
   font-size: 28px;
   color: #069194;
@@ -709,16 +710,24 @@ input {
 #printPageButton {
   width: 150px;
   padding: 10px 25px;
-  background: transparent;
+  background: #a01b1e;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  opacity: 0.5;
+  position: absolute;
+  right: 10px;
+  z-index: 999;
+  border-color: #fff;
+  color: #fff;
+  top: 10px;
+  border-width: 1px;
 }
 #printPageButton:hover {
-  opacity: 1;
+  background: #801114;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 /*===================RESPONSIVE =========================*/
@@ -763,10 +772,12 @@ body #printPageButton {
     z-index: 1;
   }
 }
-.crt3 .pp-wrapper, .crt5 .pp-wrapper {
+.crt3 .pp-wrapper,
+.crt5 .pp-wrapper {
   position: relative;
 }
-.crt3 .pp-wrapper img, .crt5 .pp-wrapper img {
+.crt3 .pp-wrapper img,
+.crt5 .pp-wrapper img {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -776,7 +787,8 @@ body #printPageButton {
   transform: translate(-50%, -50%);
   position: relative;
 }
-.crt3 .profile-pic, .crt5 .profile-pic {
+.crt3 .profile-pic,
+.crt5 .profile-pic {
   max-width: none;
 }
 
