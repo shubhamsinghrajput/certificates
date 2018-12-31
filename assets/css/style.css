@@ -628,21 +628,27 @@ input {
   padding: 2% 16% 0;
 }
 .crt8 .r1 {
-  margin-bottom: 3.7%;
+  margin-bottom: 1.5%;
 }
 .crt8 .r2 {
-  margin-bottom: 2.8%;
+  margin-bottom: 2.6%;
 }
 .crt8 .r4 {
   margin: 0;
 }
+.crt8 .r3 {
+  margin: 0 6.5% 3.5%;
+}
 @media all and (max-width: 1023px) {
   .crt8 {
-    font-size: 19px;
+    font-size: 18px;
+  }
+  .crt8 .avatar-content {
+    padding: 2% 10%;
   }
 }
 .crt8 .profile-pic {
-  height: 75px;
+  max-height: 75px;
   weidth: auto;
 }
 .crt8 .wrap-content {

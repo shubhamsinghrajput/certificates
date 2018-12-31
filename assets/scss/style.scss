@@ -685,20 +685,26 @@ input {
         padding: 2% 16% 0;
     }
     .r1 {
-        margin-bottom: 3.7%;
+        margin-bottom: 1.5%;
     }
     .r2 {
-        margin-bottom: 2.8%;
+        margin-bottom: 2.6%;
     }
     .r4 {
         margin: 0;
     }
+    .r3 {
+        margin: 0 6.5% 3.5%;
+    }
 
     @media all and (max-width:1023px) {
-        font-size: 19px;
+        font-size: 18px;
+        .avatar-content{
+            padding: 2% 10%;
+        }
     }
     .profile-pic{
-        height: 75px;
+        max-height: 75px;
         weidth: auto;
     }
     
