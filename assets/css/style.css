@@ -706,6 +706,21 @@ input {
   box-shadow: 0 0 none;
 }
 
+#printPageButton {
+  width: 150px;
+  padding: 10px 25px;
+  background: transparent;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  opacity: 0.5;
+}
+#printPageButton:hover {
+  opacity: 1;
+}
+
 /*===================RESPONSIVE =========================*/
 @media all and (max-width: 767px) {
   body {
