@@ -318,26 +318,26 @@ input {
         width: auto;
         transition: all .3s ease;
 
-        &:after {
-            font-family: FontAwesome;
-            content: "\f03e";
-            top: 0;
-            left: 0;
-            width: auto;
-            height: 100%;
-            position: absolute;
-            font-size: 75px;
-
-            @media all and (max-width: 1199px) {
-                font-size: calc(5vw + 10px);
-            }
-
-            color: #34495e;
-            text-align: center;
-            right: 0;
-            margin: 0 auto;
-
-        }
+//        &:after {
+//            font-family: FontAwesome;
+//            content: "\f03e";
+//            top: 0;
+//            left: 0;
+//            width: auto;
+//            height: 100%;
+//            position: absolute;
+//            font-size: 75px;
+//
+//            @media all and (max-width: 1199px) {
+//                font-size: calc(5vw + 10px);
+//            }
+//
+//            color: #34495e;
+//            text-align: center;
+//            right: 0;
+//            margin: 0 auto;
+//
+//        }
     }
 
     .upload-button {
@@ -479,13 +479,10 @@ input {
         }
     }
 
-    .pp-wrapper {
+    .pp-wrapper { 
         overflow: hidden;
         width: 100%;
         height: 100%;
-
-
-
         img {
             width: 100%;
             //height: 100%;

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   src: url(../font/roboto/Roboto-Black.ttf);
   font-family: Roboto-Black;
@@ -283,25 +282,6 @@ input {
   max-width: 45%;
   width: auto;
   transition: all 0.3s ease;
-}
-.avatar-header .profile-pic:after {
-  font-family: FontAwesome;
-  content: "";
-  top: 0;
-  left: 0;
-  width: auto;
-  height: 100%;
-  position: absolute;
-  font-size: 75px;
-  color: #34495e;
-  text-align: center;
-  right: 0;
-  margin: 0 auto;
-}
-@media all and (max-width: 1199px) {
-  .avatar-header .profile-pic:after {
-    font-size: calc(5vw + 10px);
-  }
 }
 .avatar-header .upload-button {
   position: absolute;
